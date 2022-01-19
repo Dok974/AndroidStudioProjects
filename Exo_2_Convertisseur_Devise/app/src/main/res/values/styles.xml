@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="eur_usd">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">152dp</item>
+        <item name="android:textColor">#ED0A0A</item>
+        <item name="android:textSize">38sp</item>
+    </style>
+</resources>
