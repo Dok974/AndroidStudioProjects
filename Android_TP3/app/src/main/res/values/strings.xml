@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Android_TP3</string>
-    <string name="salutationTextview">Yo le TP 3</string>
-    <string name="clickHere">Click Here</string>
-    <string name="saisir_texte">Saisir Texte</string>
-</resources>
