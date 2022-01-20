@@ -6,7 +6,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.doranco"
+        applicationId "com.flash.intent_tp"
         minSdk 22
         targetSdk 32
         versionCode 1

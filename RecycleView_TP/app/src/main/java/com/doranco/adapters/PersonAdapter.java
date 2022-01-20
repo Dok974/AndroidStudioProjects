@@ -1,6 +1,6 @@
 package com.doranco.adapters;
 
-import android.content.Context;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,8 +18,6 @@ import java.util.List;
 
 public class PersonAdapter extends RecyclerView.Adapter<PersonAdapter.PersonViewHolder>{
     private final List<Personne> listPeople;
-    private Context context;
-    private int ressource;
 
     public PersonAdapter(List<Personne> listPeople) {
         this.listPeople = listPeople;
