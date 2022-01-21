@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -13,16 +15,18 @@ import android.widget.Toast;
 import com.doranco.adapters.SpecialiteAdapter;
 import com.doranco.models.Specialite;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private List<Specialite> specialiteList;
+    private List<Specialite> specialiteList = new ArrayList<>();
     private Button addspecialite;
     private EditText specialite;
     private EditText description;
 
+    @SuppressLint("NewApi")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,10 +43,12 @@ public class MainActivity extends AppCompatActivity {
         addspecialite.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
-                return addSpecialiteToList();
+                 addSpecialiteToList();
+                 return true;
             }
         });
-        specialiteList = Arrays.asList(specialite1, specialite2, specialite3);
+            specialiteList = Arrays.asList(specialite1, specialite2, specialite3);
+        /*specialiteList.addAll(Arrays.asList(specialite1, specialite2, specialite3));*/
         //Creation et initialisation du recyclerView
         RecyclerView recyclerViewSpecialite = findViewById(R.id.recyclerViewSpecialite);
 
@@ -60,7 +66,12 @@ public class MainActivity extends AppCompatActivity {
 
         specialite.getText();
         description.getText();
+        try {
 
+            specialiteList.add(new Specialite(specialite, description));
+        }catch(Exception ex){
+            Log.d("Erreur : ", "Impossible : " + ex);
+        }
 
 
     }

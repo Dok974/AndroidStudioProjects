@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemMenu1"
+        android:icon="?android:attr/actionModeWebSearchDrawable"
+        android:title="Item"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/itemMenu2"
+        android:title="New window" />
+    <item
+        android:id="@+id/itemMenu3"
+        android:title="Sort by...">
+        <menu>
+            <item
+                android:id="@+id/itemMenu4"
+                android:title="Select all" />
+        </menu>
+    </item>
+</menu>

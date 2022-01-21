@@ -1,5 +1,7 @@
 package com.doranco.models;
 
+import android.widget.EditText;
+
 import java.io.Serializable;
 
 public class Specialite implements Serializable {
@@ -11,6 +13,10 @@ public class Specialite implements Serializable {
         this.id = id;
         this.specialite = specialite;
         this.description = description;
+    }
+
+    public Specialite(EditText specialite, EditText description) {
+
     }
 
     public int getId() {
