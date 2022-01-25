@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Projet Recette</string>
+    <string name="deconnexion">Deconnexion</string>
+    <string name="parametres">Parametres</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="recettes">Recettes</string>
+    <string name="ma_cuisine">Home</string>
+    <string name="users">Utilisateurs</string>
+    <string name="projet_recette">Projet Recette</string>
+    <string name="user_name">William Wills</string>
+    <string name="openDrawer">Open navigation drawer</string>
+    <string name="closeDrawer">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
