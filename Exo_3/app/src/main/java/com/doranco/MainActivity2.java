@@ -18,6 +18,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         Ordinateur ordinateur = (Ordinateur) getIntent().getSerializableExtra("ordinateur");
         updateOrdinateurView(ordinateur);
+        Toast.makeText(this, "ordinateur : " + ordinateur, Toast.LENGTH_SHORT).show();
 
     }
     private void updateOrdinateurView(Ordinateur ordinateur){

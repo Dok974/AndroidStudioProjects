@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/33767/AndroidStudioProjects/ProjetRecetteFonctionnel/app/src/main/res/drawable/empty_tall_divider.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/33767/AndroidStudioProjects/ProjetRecetteFonctionnel/app/src/main/res/drawable/ic_add_34.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/33767/AndroidStudioProjects/ProjetRecetteFonctionnel/app/src/main/res/layout/entete_menu_navigation.xml" value="0.1" />
+        <entry key="..\:/Users/33767/AndroidStudioProjects/ProjetRecetteFonctionnel/app/src/main/res/layout/fragment_recette_add.xml" value="0.11822916666666666" />
+        <entry key="..\:/Users/33767/AndroidStudioProjects/ProjetRecetteFonctionnel/app/src/main/res/layout/fragment_recettes.xml" value="0.11822916666666666" />
+        <entry key="..\:/Users/33767/AndroidStudioProjects/ProjetRecetteFonctionnel/app/src/main/res/layout/fragment_utilisateur_add.xml" value="0.1" />
+        <entry key="..\:/Users/33767/AndroidStudioProjects/ProjetRecetteFonctionnel/app/src/main/res/layout/fragment_utilisateur_delete.xml" value="0.1" />
+        <entry key="..\:/Users/33767/AndroidStudioProjects/ProjetRecetteFonctionnel/app/src/main/res/layout/fragment_utilisateur_update.xml" value="0.1" />
+        <entry key="..\:/Users/33767/AndroidStudioProjects/ProjetRecetteFonctionnel/app/src/main/res/layout/item_recycler_view_recette.xml" value="0.11822916666666666" />
+        <entry key="..\:/Users/33767/AndroidStudioProjects/ProjetRecetteFonctionnel/app/src/main/res/layout/item_recycler_view_utilisateur.xml" value="0.11822916666666666" />
+        <entry key="..\:/Users/33767/AndroidStudioProjects/ProjetRecetteFonctionnel/app/src/main/res/menu/menu_navigation.xml" value="0.11822916666666666" />
+        <entry key="..\:/Users/33767/AndroidStudioProjects/ProjetRecetteFonctionnel/app/src/main/res/menu/option_menu_utilisateur.xml" value="0.11822916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
